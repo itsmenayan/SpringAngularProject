@@ -18,7 +18,7 @@ public class DemoHelloWorld {
 	  @RequestMapping(value = "/fileUpload", method = RequestMethod.POST)
 	  public @ResponseBody ResponseEntity<String> checkTestMapping(@RequestBody MultipartFile file){
 		  System.out.println(file);
-		  return null;
+		  return null; 
 		  
 	  }
 
