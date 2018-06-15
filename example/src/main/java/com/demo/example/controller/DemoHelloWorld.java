@@ -12,7 +12,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 
 @Controller
-public class DemoHelloWorld {
+public class DemoHelloWorld { 
 
 	  
 	  @RequestMapping(value = "/fileUpload", method = RequestMethod.POST)
